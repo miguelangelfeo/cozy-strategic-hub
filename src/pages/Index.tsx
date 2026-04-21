@@ -30,6 +30,14 @@ const resources = [
     type: "LINK",
     external: true,
   },
+  {
+    title: "E-commerce for WeChat",
+    description: "E-commerce for chinese market",
+    href: "https://juanvaldezchino.vercel.app/",
+    icon: ShoppingBag,
+    type: "LINK",
+    external: true,
+  }
 ];
 
 const Index = () => {
@@ -42,7 +50,7 @@ const Index = () => {
           </div>
           <div>
             <h1 className="text-3xl md:text-4xl font-bold">Juan Valdez</h1>
-            
+
           </div>
         </div>
       </header>
