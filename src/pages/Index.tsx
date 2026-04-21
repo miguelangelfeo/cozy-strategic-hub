@@ -3,29 +3,29 @@ import { FileText, FileSpreadsheet, ShoppingBag, Coffee } from "lucide-react";
 const resources = [
   {
     title: "Strategic Matrix",
-    description: "Matriz estratégica corporativa",
-    href: "/strategic-matrix.pdf",
+    description: "Matrix with all the decisions taken",
+    href: "/Strategic_Matrices_JuanValdez.pdf",
     icon: FileText,
     type: "PDF",
   },
   {
     title: "Strategic Proposal",
-    description: "Propuesta estratégica detallada",
-    href: "/strategic-proposal.pdf",
+    description: "Detailed strategic proposal",
+    href: "/Origen_JuanValdez_Global_Strategy_2023.pdf",
     icon: FileText,
     type: "PDF",
   },
   {
     title: "Financial Indicators",
-    description: "Indicadores financieros clave",
-    href: "/financial-indicators.xlsx",
+    description: "Key financial indicators",
+    href: "/Procafecol_Indicadores_Financieros.xlsx",
     icon: FileSpreadsheet,
     type: "XLSX",
   },
   {
     title: "E-commerce",
-    description: "Visita nuestra tienda online",
-    href: "https://www.juanvaldezcafe.com",
+    description: "Visit our e-commerce",
+    href: "https://juanvaldez.vercel.app/",
     icon: ShoppingBag,
     type: "LINK",
     external: true,
@@ -42,18 +42,16 @@ const Index = () => {
           </div>
           <div>
             <h1 className="text-3xl md:text-4xl font-bold">Juan Valdez</h1>
-            <p className="text-primary-foreground/80 text-sm md:text-base">
-              Centro de recursos estratégicos
-            </p>
+            
           </div>
         </div>
       </header>
 
       <main className="container mx-auto px-6 py-12">
         <div className="mb-8">
-          <h2 className="text-2xl font-semibold text-secondary mb-2">Recursos</h2>
+          <h2 className="text-2xl font-semibold text-secondary mb-2">Resources</h2>
           <p className="text-muted-foreground">
-            Documentos y enlaces disponibles
+            All the documents
           </p>
         </div>
 
@@ -92,11 +90,6 @@ const Index = () => {
         </div>
       </main>
 
-      <footer className="border-t border-border mt-12">
-        <div className="container mx-auto px-6 py-6 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Juan Valdez · Recursos estratégicos
-        </div>
-      </footer>
     </div>
   );
 };
